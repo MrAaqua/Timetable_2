@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Этот файл используется процессом публикации или упаковки вашего веб-проекта. Можно настроить поведение этого процесса,
+изменив этот файл MSBuild. Подробности см. на странице https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAEBMzVSEI5UGp12Ka9NmMRgAAAAACAAAAAAAQZgAAAAEAACAAAADsCmG2IE7LYwgXkByh2rgNhNfcMAHGxQxscn4OCXTD1gAAAAAOgAAAAAIAACAAAABbkEjzhxkJIiS/IYPiOa7a3+OqhB3o4Zoe70bb2jVmIYAAAACzXGBpAJqu9JrFi3ziwOUHu27t4CjFcdB5QRavpGCWG7CnZ2J+FNXYY9EMKtmAsLsSQOrRynd/ap6TRti3r8TsEbC497tr67kZI/wUbnVjRBsfktxui8g9ArBKec26F2/48ScquAW3jOZwTapxddsIiAEePBoe0hC8j3G72LB5oUAAAADRfwjsKTKLO+aHA1guzR4tt0Ok+h/Gno5Mr36VuKy0+ifnCAWTlSuLHd4A44DiHj5lKkakWdJIOSYnRl7HGUWy</EncryptedPassword>
+    <History>True|2021-08-05T07:53:15.9138404Z;True|2021-08-01T15:42:15.4804871+05:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <EFMigrations Include="Timetable.DataAccessLayer.ApplicationDbContext">
+      <Value>Data Source=tcp:timetabledbserver.database.windows.net,1433%3bInitial Catalog=Timetable_db%3bUser Id=placebo%40timetabledbserver%3bPassword=!admin1234</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
